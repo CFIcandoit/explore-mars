@@ -1,5 +1,5 @@
 html {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 body {
@@ -69,6 +69,10 @@ footer div {
 a {
   color: white;
   text-decoration: none;
+}
+
+footer div a {
+  text-decoration: underline;
 }
 
 nav ul a,
@@ -168,15 +172,17 @@ a:hover,
 .dark-article p {
   color: white;
 }
-
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   html {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   html {
-    font-size: 8px;
+    font-size: 14px;
+  }
+  footer {
+    flex-direction: column;
   }
 }
