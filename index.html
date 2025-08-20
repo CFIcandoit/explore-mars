@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Red Planet</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav id="menu">
+        <ul>
+          <li id="toggle">
+            Explore Mars
+            <svg
+              id="menu-expand"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              width="24"
+              viewBox="0 0 640 640"
+            >
+              <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                fill="#ffffff"
+                d="M297.4 470.6C309.9 483.1 330.2 483.1 342.7 470.6L534.7 278.6C547.2 266.1 547.2 245.8 534.7 233.3C522.2 220.8 501.9 220.8 489.4 233.3L320 402.7L150.6 233.4C138.1 220.9 117.8 220.9 105.3 233.4C92.8 245.9 92.8 266.2 105.3 278.7L297.3 470.7z"
+              />
+            </svg>
+            <svg
+              id="menu-collapse"
+              class="hide"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              width="24"
+              viewBox="0 0 640 640"
+            >
+              <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                fill="#ffffff"
+                d="M297.4 169.4C309.9 156.9 330.2 156.9 342.7 169.4L534.7 361.4C547.2 373.9 547.2 394.2 534.7 406.7C522.2 419.2 501.9 419.2 489.4 406.7L320 237.3L150.6 406.6C138.1 419.1 117.8 419.1 105.3 406.6C92.8 394.1 92.8 373.8 105.3 361.3L297.3 169.3z"
+              />
+            </svg>
+          </li>
+          <li><a href="index.html" class="home-link">Mars </a></li>
+          <li><a href="#moons" class="link-cat">Moons</a></li>
+          <li><a href="phobos.html" class="sub-link">Phobos</a></li>
+          <li><a href="deimos.html" class="sub-link">Deimos</a></li>
+          <li><a href="#features" class="link-cat">Features</a></li>
+          <li><a href="olympus-mons.html" class="sub-link">Olympus Mons</a></li>
+          <li>
+            <a href="valles-marineris.html" class="sub-link"
+              >Valles Marineris</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="mars hero">
+        <h1>Mars: The Red Planet</h1>
+      </div>
+      <div class="article-container">
+        <div class="article">
+          <h2>Mars Overview</h2>
+          <p>
+            Mars, the fourth planet from the Sun, is often called the "Red
+            Planet" due to its iron-rich soil that gives it a reddish hue. It
+            has a thin atmosphere primarily composed of carbon dioxide, with
+            surface temperatures ranging from about -140&deg;C to 20&deg;C. Mars
+            is roughly half the size of Earth, with a diameter of approximately
+            6,779 kilometers, and it completes an orbit around the Sun every 687
+            Earth days. The planet features diverse geological formations,
+            including vast plains, deep canyons, and towering volcanoes, making
+            it a prime target for scientific exploration.
+          </p>
+          <p>
+            Human interest in Mars has surged with missions like NASA's
+            Perseverance rover, which landed in 2021 and continues to search for
+            signs of ancient microbial life as of 2025. Evidence suggests that
+            Mars once had liquid water on its surface, with features like dried
+            riverbeds and polar ice caps hinting at a wetter past. Current
+            atmospheric pressure is too low for liquid water to exist stably,
+            but subsurface reservoirs or seasonal flows remain possibilities
+            under investigation.
+          </p>
+          <p>
+            Future plans for Mars include crewed missions, with organizations
+            like SpaceX aiming for human settlement. Challenges include
+            radiation exposure, dust storms that can last months, and the need
+            for sustainable habitats. As of 2025, international collaborations
+            are advancing technologies for in-situ resource utilization, such as
+            extracting oxygen from the atmosphere, to support long-term
+            exploration.
+          </p>
+        </div>
+      </div>
+      <div class="dark-article-container">
+        <div class="dark-article">
+          <h2 id="moons">Moons of Mars</h2>
+          <a href="phobos.html"><h3 class="phobos highlight">Phobos</h3></a>
+
+          <p>
+            Mars’ larger, innermost moon, a 22-kilometer-wide, cratered,
+            potato-shaped body, orbits every 7.65 hours and appears as a bright,
+            star-like object from the surface.
+          </p>
+          <a href="deimos.html"> <h3 class="deimos highlight">Deimos</h3> </a>
+          <p>
+            Mars’ smaller, outer moon, about 12 kilometers in diameter, orbits
+            every 30 hours, appearing as a faint, star-like point in the Martian
+            sky.
+          </p>
+        </div>
+        <div class="dark-article">
+          <h2 id="features">Features of Mars</h2>
+          <a href="olympus-mons.html">
+            <h3 class="olympus-mons highlight">Olympus Mons</h3>
+          </a>
+          <p>
+            The solar system’s tallest shield volcano, standing 22 kilometers
+            high on Mars, formed by extensive lava flows and inactive for
+            roughly 25 million years.
+          </p>
+          <a href="valles-marineris.html">
+            <h3 class="valles-marineris highlight">Valles Marineris</h3>
+          </a>
+          <p>
+            A massive Martian canyon system, over 4,000 kilometers long, shaped
+            by tectonic rifting and erosion, with evidence of ancient water
+            flows.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      Website designed and coded by Andrew Swineford. All images courtesy of
+      www.nasa.gov.
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

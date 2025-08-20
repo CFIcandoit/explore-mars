@@ -1,0 +1,175 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #1b1b1b;
+  font-family: Roboto, Trebuchet MS, sans-serif;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  font-size: 4.5rem;
+  text-shadow: 3px 3px 6px #1b1b1b;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  color: #1b1b1b;
+}
+
+nav {
+  background-color: #1b1b1b;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  height: 5rem;
+}
+
+.home-link,
+#toggle {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 0.75rem;
+}
+
+.link-cat {
+  font-size: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.sub-link {
+  padding-left: 1.75rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul a,
+#toggle {
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  display: inline-block;
+}
+
+h3:hover,
+a:hover,
+#toggle:hover {
+  background-color: rgba(220, 220, 220, 0.5);
+  background-image: none;
+}
+
+#menu.expand {
+  max-height: 1000px;
+}
+
+#menu {
+  max-height: 4rem;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.hide {
+  display: none;
+}
+
+.mars {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png");
+}
+
+.phobos {
+  background-image: url(https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/i/a/1/PIA10368_1280.jpg?w=1280&h=1252&fit=clip&crop=faces%2Cfocalpoint);
+}
+
+.deimos {
+  background-image: url(https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/v/vo2_413b83.gif?w=461&h=469&fit=clip&crop=faces%2Cfocalpoint);
+}
+
+.olympus-mons {
+  background-image: url(https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/7/7664_Mars-viking-orbiter-olympus-mons-volcano-full2.jpg?w=1600&h=1480&fit=clip&crop=faces%2Cfocalpoint);
+}
+
+.valles-marineris {
+  background-image: url(https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/6/6453_mars-globe-valles-marineris-enhanced-full2.jpg?w=2970&h=2970&fit=clip&crop=faces%2Cfocalpoint);
+}
+
+.highlight {
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 3px 3px 6px #1b1b1b;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50rem;
+  padding-left: 30px;
+}
+
+.article-container,
+.dark-article-container {
+  width: 100%;
+}
+
+.article,
+.dark-article {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.article,
+.article-container {
+  background-color: #fff;
+}
+
+.dark-article,
+.dark-article-container {
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.article h1,
+.article h2,
+.article p {
+  color: #1b1b1b;
+}
+
+.dark-article h1,
+.dark-article h2,
+.dark-article p {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+}
