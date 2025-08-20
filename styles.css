@@ -37,10 +37,11 @@ nav ul {
   list-style-type: none;
 }
 
-footer {
+footer p {
   color: white;
   text-align: center;
   height: 5rem;
+  padding-top: 2rem;
 }
 
 .home-link,
@@ -162,14 +163,14 @@ a:hover,
   color: white;
 }
 
-@media (max-width: 600px) {
-  html {
-    font-size: 8px;
-  }
-}
-
 @media (max-width: 800px) {
   html {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 8px;
   }
 }
