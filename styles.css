@@ -37,7 +37,13 @@ nav ul {
   list-style-type: none;
 }
 
-footer p {
+footer {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+footer div {
   color: white;
   text-align: center;
   height: 5rem;
@@ -135,7 +141,7 @@ a:hover,
 
 .article,
 .dark-article {
-  padding: 30px;
+  padding: 2rem;
   max-width: 1000px;
   margin: auto;
 }
